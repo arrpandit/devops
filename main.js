@@ -3,7 +3,7 @@ const app = express();
 const {mongoConn} = require("./dbconn");
 const restaurent = require("./routes/restaurent");
 
-mongoConn("mongodb://127.0.0.1:27017/restaurent_details")
+mongoConn("mongodb://127.0.0.1:27017/restaurent_details");
 const PORT = process.env.PORT || 3000;
 
 app.use("/restaurent",restaurent);
