@@ -14,4 +14,4 @@ async function addRestro(req,res){
 module.exports = {
     allrestro,
     addRestro
-}
+};
